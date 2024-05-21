@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./sky.webp");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: 30%;
+    /* filter: blur(1px);   */
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 98vh;
+    box-sizing: border-box;
+    /* position: absolute; */
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(255,255, 255,0.5);
+    border-radius: 50px;
+    margin-top: 10px;
+
+}
+#main{
+    
+        font-size: 50px;
+        color:#4274A6 ;
+
+
+}
+#nav{
+    margin-left: 40px;
+    margin-top: 17px;
+    font-family: sans-serif;
+}
+#formDiv{
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 9px;
+    width: 50%;
+    /* border: 5px solid black; */
+    text-align: center;
+    
+    
+}
+#input{
+    width: 70%  ;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 5px;
+    /* padding-top: 7px; */
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 2px solid black;
+    background: transparent;
+
+}
+#btn{
+    height:  50px;
+    width: 8%;
+    /* padding-top: 4px; */
+    
+    /* padding-bottom: px; */
+    font-size: 15px;
+    background: transparent;
+    border: 2px solid black;
+
+    margin-left: -4px;
+    border-top-right-radius:50px ;
+    border-bottom-right-radius:50px ;
+    /* border: none; */
+    border-left: none;
+
+    /* padding-top: 20px; */
+
+}
+#srhimg{
+    width: 20px;
+    /* padding-top: 10px; */
+    margin-bottom: -3px;
+    cursor: pointer;
+}
+#temp{
+    margin-top: 21px;
+    font-size: 40px;
+    color: #4274A6 ;
+    font-weight: 800;
+}
+
+
+
+
+
+#bodyTemp{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    height: 80vh;
+}
+#bodyTemp{
+    display: flex;
+}
+#celcius{
+    font-size: 80px;
+}
+#dateDiv{
+    margin-left: 30px;
+}
+#loc{
+    font-size: 40px;
+
+}
+#crntDate{
+    font-size: 30px;
+}
+#wethr-text{
+    margin-left: 20px;
+    font-size: 30px;
+}

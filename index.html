@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather-app</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header>
+      <div id="nav">
+        <h1 id="main">WEATHER</h1>
+      </div>
+      <div id="formDiv">
+        <form id="form">
+          <input id="input" type="search" maxlength="100" />
+          <button type="submit" id="btn">
+            <img id="srhimg" src="./search-interface-symbol.png" alt="search" />
+          </button>
+        </form>
+      </div>
+      <div id="temp">Country Name</div>
+    </header>
+
+    <div id="body">
+      <div id="bodyTemp">
+        
+          <h1 id="celcius"></h1>
+          <div id="dateDiv">
+            <p id="loc"></p>
+            <p id="crntDate"></p>
+
+          </div>
+          <div>
+            <p id="wethr-text"></p>
+            <p id="wethr-icon"></p>
+
+          </div>
+      </div>
+    </div>
+    
+
+    <script src="./app.js"></script>
+  </body>
+</html>
