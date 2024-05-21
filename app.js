@@ -12,12 +12,13 @@ const countryName = document.getElementById("temp");
 async function fetchData(cityName) {
   try {
     const promise = await fetch(
-      `https://api.weatherapi.com/v1/current.json?key=537650cb9d644b15b87145122240203&q=${cityName}`
+      `http://api.weatherapi.com/v1/current.json?key=c2184b199a854aa9bb094105242105&q=${cityName}&aqi=no
+      `
     );
-    return await promise.json();
+    return await promise.json();  
   } catch (error) {
     console.error(error);
-  }
+  } 
 }
 
 form.addEventListener("submit", async (event) => {
